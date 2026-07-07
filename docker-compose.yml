@@ -1,5 +1,5 @@
 services:
-  chat-client:
+  reliability-index-explorer:
     build:
       context: .
     image: reliability-index-explorer
