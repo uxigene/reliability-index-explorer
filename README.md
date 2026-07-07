@@ -78,6 +78,13 @@ Example structure:
 }
 ```
 
+## Trade-offs and Limitations
+
+I chose to use a **virtualized list** instead of traditional pagination. Although this requires loading the full dataset upfront and increases the loading speed, it provides a better user experience by enabling search, filtering, and sorting across all records. Since the data is fetched only once and cached in the store, I consider the longer initial load time to be a reasonable trade-off.
+
+A possible improvement would be to load and render only the first page initially, then fetch the remaining data in the background. This would display content faster and improve perceived performance, at the cost of making additional requests to the server and adding some implementation complexity.
+
+
 ## State lifecycle Diagram
 Check: `docs/diagrams/state-lifecycle-diagram.puml`
 
