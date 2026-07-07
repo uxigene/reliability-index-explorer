@@ -39,7 +39,7 @@ const Transactions = () => {
 
 	return (
 		<div className="bg-white rounded-xl pb-4 text-sm">
-			<div className="flex p-4 gap-3 flex-col sm:flex-row">
+			<div className="flex p-4 gap-3 flex-col sm:flex-row text-base">
 				<SearchInput value={query} onChange={handleSearchInputChange} />
 				<CategorySelector onChange={handleCategoryChange} />
 			</div>
