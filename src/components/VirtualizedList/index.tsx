@@ -85,7 +85,7 @@ export default function VirtualizedList({ list }: VirtualizedListProps) {
 					const category = categoriesState[transaction.merchant_category_code];
 
 					const iconKey = category?.code as keyof typeof Icons;
-					const Icon = Icons[iconKey] ?? 'div';
+					const Icon = Icons[iconKey] ?? Icons['6540'];
 
 					return (
 						<div
