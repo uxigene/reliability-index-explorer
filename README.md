@@ -76,7 +76,7 @@ Example structure:
 ```
 
 ## State lifecycle Diagram
-Check: `docs/diagrams/state-management-diagram.puml`
+Check: `docs/diagrams/state-lifecycle-diagram.puml`
 
 Each of the three stores (`useReliability`, `useTransactions`, `useCategories`) follows the same lifecycle, driven by a single `*Fetch` thunk. The `loaded` flag acts as a guard so route changes never refetch.
 Transactions store accepts external mutations, via the `useLiveTransactions` SSE hook.
