@@ -15,6 +15,9 @@ For convenience, a demo is available to explore and evaluate the user interface 
 - [x] Reliability Overview
 - [x] Score Breakdown Visualization
 - [x] Transaction Explorer
+- [x] Transaction searching
+- [x] Transaction filtering
+- [x] Transaction sorting
 - [x] Cashflow Timeline
 - [x] Streaming Transaction Updates
 - [x] Loading states
