@@ -1,0 +1,17 @@
+**/node_modules
+**/dist
+**/.cache
+**/coverage
+
+.git
+.gitignore
+.github
+.idea
+.claude
+.vscode
+
+README.md
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+

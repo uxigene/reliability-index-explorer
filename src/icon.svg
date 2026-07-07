@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 60">
+    <path
+            d="M10 50 A40 40 0 0 1 90 50"
+            fill="none"
+            stroke="#d1d5db"
+            stroke-width="10"
+            stroke-linecap="round"
+    />
+
+    <path d="M10 50 A40 40 0 0 1 90 50" fill="none" stroke="#f0b100" stroke-width="10" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="50" />
+    <text x="50" y="55" text-anchor="middle" font-size="34" font-family="Arial, sans-serif" font-weight="600" fill="#f0b100">76</text>
+</svg>

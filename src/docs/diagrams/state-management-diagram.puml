@@ -1,0 +1,12 @@
+@startuml
+title State Management Lifecycle
+
+Idle    --> Loading : *Fetch() called (Main mounts)
+Loading --> Loaded  : API resolves\n(state normalized by id)
+Loading --> Error   : API rejects
+
+Loaded  --> Loaded  : re-render / re-mount\n(guard: if (loaded) return)
+Loaded  --> Loaded  : transactions only:\nSSE -> upsert / delete
+
+Error   --> Loading : *Fetch() retried\n(loaded stays false)
+@enduml

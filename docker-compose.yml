@@ -1,0 +1,9 @@
+services:
+  chat-client:
+    build:
+      context: .
+    image: reliability-index-explorer
+    container_name:  reliability-index-explorer
+    ports:
+      - "3001:3001"
+    restart: unless-stopped
